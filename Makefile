@@ -2,7 +2,7 @@
 
 test:
 	make clean
-	cat ./test-data/dat_01 | python3 ./src/plot_bars.py
+	cat ./test-data/dat_01 | ./src/plot_bars.py temp
 	make view
 	make clean
 
